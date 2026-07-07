@@ -1,0 +1,58 @@
+@import "/css/variables/variables.css";
+
+body {
+    font-family: "Cormorant", serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: var(--standard-width);
+}
+
+.header #title {
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Dynalight", cursive;
+}
+
+.header #test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: var(--standard-width);
+    padding: 0 var(--spacing-md);
+    margin: 0 0 var(--spacing-xl) 0;
+    box-sizing: border-box;
+}
+
+.header nav {
+    display: inline-block;
+}
+
+.header ul {
+    text-transform: capitalize;
+    padding: 0;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.header a.active {
+    border-bottom: 1px solid black;
+    padding-bottom: 1;
+}
