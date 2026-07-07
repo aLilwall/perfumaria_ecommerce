@@ -1,4 +1,4 @@
-@import "/css/variables/variables.css";
+@import "../variables/variables.css";
 
 .header {
     display: flex;
