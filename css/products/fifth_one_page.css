@@ -1,0 +1,12 @@
+@import "/css/global/header.css";
+@import "/css/global/global.css";
+@import "/css/global/footer.css";
+
+.img {
+
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/products/perfume-5-front.png");
+    background-size: cover;
+    border-radius: 6px;
+}
