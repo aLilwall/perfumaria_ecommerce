@@ -1,6 +1,6 @@
-@import "/css/global/header.css";
-@import "/css/global/global.css";
-@import "/css/global/footer.css";
+@import "../global/header.css";
+@import "../global/global.css";
+@import "../global/footer.css";
 
 .img {
 
