@@ -31,7 +31,7 @@
 .products .card_one .img {
     height: 240px;
     width: 240px;
-    background-image: url("../../img/products/perfume-1-front.png");
+    background-image: url("../../img/products/perfume-1.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -39,13 +39,13 @@
 
 .products .card_one .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-2-front.png");
+    background-image: url("../../img/products/perfume-1-selected.png");
 }
 
 .products .card_two .img{
     height: 240px;
     width: 240px;
-    background-image: url("../../img/products/perfume-2-front.png");
+    background-image: url("../../img/products/perfume-2.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -53,13 +53,13 @@
 
 .products .card_two .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-3-front.png");
+    background-image: url("../../img/products/perfume-2-selected.png");
 }
 
 .products .card_three .img {
     height: 240px;
     width: 240px;
-    background-image: url("../../img/products/perfume-3-front.png");
+    background-image: url("../../img/products/perfume-3.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -67,13 +67,13 @@
 
 .products .card_three .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-4-front.png");
+    background-image: url("../../img/products/perfume-3-selected.png");
 }
 
 .products .card_four .img{
     height: 240px;
     width: 240px;
-    background-image: url("../../img/products/perfume-4-front.png");
+    background-image: url("../../img/products/perfume-5.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -81,13 +81,13 @@
 
 .products .card_four .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-5-front.png");
+    background-image: url("../../img/products/perfume-5-selected.png");
 }
 
 .products .card_five .img {
     height: 240px;
     width: 240px;
-    background-image: url("../../img/products/perfume-5-front.png");
+    background-image: url("../../img/products/perfume-6.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -95,13 +95,13 @@
 
 .products .card_five .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-1-front.png");
+    background-image: url("../../img/products/perfume-6-selected.png");
 }
 
 .products .card_six .img{
     height: 240px;
     width: 240px;
-    background-image: url("");
+    background-image: url("../../img/products/perfume-7.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -109,13 +109,13 @@
 
 .products .card_six .img:hover {
     cursor: pointer;
-    background-image: url("");
+    background-image: url("../../img/products/perfume-7-selected.png");
 }
 
 .products .card_seven .img {
     height: 240px;
     width: 240px;
-    background-image: url("");
+    background-image: url("../../img/products/perfume-8.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -123,13 +123,13 @@
 
 .products .card_seven .img:hover {
     cursor: pointer;
-    background-image: url("");
+    background-image: url("../../img/products/perfume-8-selected.png");
 }
 
 .products .card_eight .img{
     height: 240px;
     width: 240px;
-    background-image: url("");
+    background-image: url("../../img/products/perfume-9.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -137,5 +137,5 @@
 
 .products .card_eight .img:hover {
     cursor: pointer;
-    background-image: url("");
+    background-image: url("../../img/products/perfume-9-selected.png");
 }
