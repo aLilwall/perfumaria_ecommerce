@@ -87,7 +87,7 @@
 .products .card_five .img {
     height: 240px;
     width: 240px;
-    background-image: url("../../img/products/perfume-6.png");
+    background-image: url("../../img/products/perfume-10.png");
     background-size: cover;
     border-radius: 6px;
     transition: background-image .2s ease-in-out; 
@@ -95,7 +95,7 @@
 
 .products .card_five .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-6-selected.png");
+    background-image: url("../../img/products/perfume-10-selected.png");
 }
 
 .products .card_six .img{
