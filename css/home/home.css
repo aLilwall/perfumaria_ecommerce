@@ -1,20 +1,21 @@
-.carrosel {
+.carrossel {
     display: block;
-    /* justify-content: center; */
-    /* align-items: center; */
+    /* justify-content: center; test*/
+    /* align-items: center; test*/
     margin: 60px 0;
 }
 
-.carrosel img {
-    height: 400px;
+.carrossel img {
+    display: none;
+    height: 431px;
     width: 100%;
     /* max-width: var(--standard-width); */
     object-fit: cover;
     /* box-sizing: border-box; */
 }
 
-.carrosel #inactive {
-    display: none;
+.carrossel .active {
+    display: block;
 }
 
 .products {
