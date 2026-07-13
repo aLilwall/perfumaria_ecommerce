@@ -1,15 +1,18 @@
 @import "../variables/variables.css";
 
-.header {
+header {
+    background-color: #fff;
+    height: 160px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 20px auto;
-    max-width: var(--standard-width);
+    padding: 0 400px;
+    /* max-width: var(--standard-width); */
+
 }
 
-.header #title {
+header #title {
     font-size: 64px;
     font-weight: 600;
     text-transform: capitalize;
@@ -17,7 +20,7 @@
 	color: rgb(70, 70, 70);
 }
 
-.header #test {
+header #test {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,20 +31,20 @@
     box-sizing: border-box;
 }
 
-.header nav {
+header nav {
     display: inline-block;
 }
 
-.header ul {
+header ul {
     text-transform: capitalize;
     padding: 0;
 }
 
-.header li {
+header li {
     display: inline-block;
 }
 
-.header a {
+header a {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -49,7 +52,7 @@
     margin-right: 20px;
 }
 
-.header a.active {
+header a.active {
     border-bottom: 1px solid rgb(70, 70, 70);
     padding-bottom: 1;
 }
