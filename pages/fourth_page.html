@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/products/fourth_one_page.css">
-    <title>Fourth one</title>
+    <link rel="stylesheet" href="../css/products/first_one_page.css"> 
+    <title>First one</title>
 </head>
 <body>
     <header class="header">
@@ -23,16 +23,70 @@
             </ul>
         </nav>
     </header>
-    <div class="img"></div>
-    <footer>
+    <!-- <div class="separate"></div> -->
+    <div class="product_info">
+        <div class="product_card">
+            <div class="product_view">
+                <img id="viewport" src="../img/products/perfume-4-front.png" alt="">
+            </div>
+            <div class="product_photos">
+                <img src="../img/products/perfume-4-front.png" alt="" onmouseenter="photo1()">
+                <img src="../img/products/perfume-4-selected.png" alt="" onmouseenter="photo2()">
+                <img src="../img/products/perfume-4-view.png" alt="" onmouseenter="photo3()">
+                <img src="../img/products/life-collection.png" alt="" onmouseenter="photo4()">
+            </div>
+        </div>
+        <div class="product_price">
+            <h3>Jove</h3>
+            <h4>Product Price: €30.00</h4>
+            <span>The blue emanating from the cosmos, the color of the Gods of Rome—on your bookshelf..</span>
+        </div>
+    </div>
+    <script>
+        function photo1() {
+            document.getElementById('viewport').src = "../img/products/perfume-4-front.png"
+        }
+
+        function photo2() {
+            document.getElementById('viewport').src = "../img/products/perfume-4-selected.png"
+        }
+
+        function photo3() {
+            document.getElementById('viewport').src = "../img/products/perfume-4-view.png"
+        }
+
+        function photo4() {
+            document.getElementById('viewport').src = "../img/products/life-collection.png"
+        }
+    </script>
+    <div class="message">
         <h3>
             Designing, making, and selling goods of timeless design and uncompromising
             integrity—made thoughtfully, honestly, and with pride—to be enjoyed with similar intention.
         </h3>
-        <h3 class="cta">made with care.</h3>
+    </div>
+    <footer>
         <div class="contact">
+            <h3>Contacts</h3>
             <p>giorno_giovanna@leParfumeur.com</p>
-            <p>(19) 4002-8922</p>
+            <p>(19) 94002-8922</p>
+        </div>
+        <div class="links">
+            <h3>Social Media</h3>
+            <div class="logos">
+                <a href="">
+                    <img src="../img/social_media/facebook.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/peq.muro/">
+                    <img src="../img/social_media/instagram.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../img/social_media/twitter.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../img/social_media/youtube.png" alt="">
+                </a>
+            </div>
         </div>
     </footer>
 </body>

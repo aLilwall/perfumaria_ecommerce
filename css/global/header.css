@@ -1,15 +1,14 @@
 @import "../variables/variables.css";
 
 header {
-    background-color: #fff;
+    background-color: var(--primary-color);
+    width: 100%;
+    /* max-width: var(--standard-width); */
     height: 160px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 400px;
-    /* max-width: var(--standard-width); */
-
 }
 
 header #title {
@@ -18,6 +17,7 @@ header #title {
     text-transform: capitalize;
     font-family: "Dynalight", cursive;
 	color: rgb(70, 70, 70);
+    padding-left: 380px;
 }
 
 header #test {
@@ -33,6 +33,7 @@ header #test {
 
 header nav {
     display: inline-block;
+    padding-right: 380px;
 }
 
 header ul {
