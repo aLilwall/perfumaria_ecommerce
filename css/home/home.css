@@ -43,6 +43,7 @@
 }
 
 .products {
+    color: var(--dark-color);
     background-color: var(--light-color);
     width: 100%;
     max-width: var(--standard-width);
@@ -62,11 +63,23 @@
     height: 300px;
 }
 
+.products .card_one h4 {
+    font-size: var(--h4-size);
+    font-weight: 400;
+    padding-top: 5px;
+}
+
 .products .card_two {
     background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
+}
+
+.products .card_two h4 {
+    font-size: var(--h4-size);
+    font-weight: 400;
+    padding-top: 5px;
 }
 
 .products .card_three {
@@ -109,12 +122,6 @@
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
-}
-
-.products .card_one h2 {
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 5px;
 }
 
 .products .card_one .img {

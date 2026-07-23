@@ -48,5 +48,6 @@ footer .contact {
 }
 
 footer h3 {
+    size: var(--h3-size);
     margin: 0;
 }
