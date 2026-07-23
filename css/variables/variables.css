@@ -28,6 +28,6 @@
     --spacing-xl: 64px;
     /* WIDTH LIMITS */
     --standard-width: 1144px;
-    --standadrd-border-radius: 20px;
+    --standard-border-radius: 8px;
     --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
 }
