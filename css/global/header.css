@@ -12,11 +12,11 @@ header {
 }
 
 header #title {
-    font-size: 64px;
+    font-size: var(--h1-size);
     font-weight: 600;
     text-transform: capitalize;
-    font-family: "Dynalight", cursive;
-	color: rgb(70, 70, 70);
+    font-family: var(--logo-font);
+	color: var(--dark-color);
     padding-left: 380px;
 }
 

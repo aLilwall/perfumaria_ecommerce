@@ -1,3 +1,5 @@
+@import "../variables/variables.css";
+
 html {
     scroll-behavior: smooth;
 }
@@ -17,7 +19,7 @@ body {
     width: 100%;
     position: relative;
     overflow-x: hidden;
-	font-family: "Hanken Grotesk", serif;
+	font-family: var(--body-font);
 	color: var(--text-dark);
 }
 /*body tem margin por padrão*/

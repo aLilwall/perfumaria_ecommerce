@@ -1,3 +1,5 @@
+@import "../variables/variables.css";
+
 .carrosel-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,7 +10,7 @@
     display: none;
     width: 100%;
     object-fit: cover;
-    opacity: 0.25;
+    opacity: 0.65;
 }
 
 .carrossel-mid img {
@@ -21,7 +23,7 @@
     display: none;
     width: 100%;
     object-fit: cover;
-    opacity: 0.25;
+    opacity: 0.65;
 }
 
 .carrossel-left .active {
@@ -54,56 +56,56 @@
 }
 
 .products .card_one {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
 }
 
 .products .card_two {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
 }
 
 .products .card_three {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
 }
 
 .products .card_four {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
 }
 
 .products .card_five {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
 }
 
 .products .card_six {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;
 }
 
 .products .card_seven {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px; 
     height: 300px;
 }
 
 .products .card_eight {
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 22px;   
     border-radius: 5px;
     height: 300px;

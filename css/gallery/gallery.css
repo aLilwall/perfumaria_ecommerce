@@ -1,0 +1,23 @@
+@import "../global/header.css";
+@import "../global/global.css";
+@import "../global/footer.css";
+
+.gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin: 80px auto;
+    gap: 6px;
+}
+
+.gallery img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: transform .25s ease-in-out;
+}
