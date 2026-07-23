@@ -1,10 +1,39 @@
-.carrossel img {
+.carrosel-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 200%;
+}
+
+.carrossel-left img {
     display: none;
-    height: 680px;
     width: 100%;
-    /* max-width: var(--standard-width); */
     object-fit: cover;
-    /* box-sizing: border-box; */
+    opacity: 0.25;
+}
+
+.carrossel-mid img {
+    display: none;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carrossel-right img {
+    display: none;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.carrossel-left .active {
+    display: block;
+}
+
+.carrossel-mid .active {
+    display: block;
+}
+
+.carrossel-right .active {
+    display: block;
 }
 
 .carrossel .active {
