@@ -53,89 +53,77 @@
     justify-content: center;
     align-items: center;
     margin: 100px 0;
-    gap: 20px;
+    gap: var(--spacing-md);
 }
 
 .products .card_one {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
-}
-
-.products .card_one h4 {
-    font-size: var(--h4-size);
-    font-weight: 400;
-    padding-top: 5px;
 }
 
 .products .card_two {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
-}
-
-.products .card_two h4 {
-    font-size: var(--h4-size);
-    font-weight: 400;
-    padding-top: 5px;
 }
 
 .products .card_three {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
 }
 
 .products .card_four {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
 }
 
 .products .card_five {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
 }
 
 .products .card_six {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
 }
 
 .products .card_seven {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px; 
+    border-radius: var(--standard-border-radius);
     height: 300px;
 }
 
 .products .card_eight {
     background-color: var(--primary-color);
     padding: 22px;   
-    border-radius: 5px;
+    border-radius: var(--standard-border-radius);
     height: 300px;
 }
 
 .products .card_one .img {
     height: 200px;
     width: 200px;
-    background-image: url("../../img/products/perfume-1-front.png");
+    background-image: url("../../img/products/perfume-1-front.webp");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
 .products .card_one .img:hover {
     cursor: pointer;
-    background-image: url("../../img/products/perfume-1-selected.png");
+    background-image: url("../../img/products/perfume-1-selected.webp");
 }
 
 .products .card_two .img{
@@ -143,7 +131,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-2-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
@@ -157,7 +145,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-3-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
@@ -171,7 +159,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-4-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
@@ -185,7 +173,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-5-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
@@ -199,7 +187,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-6-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
@@ -213,7 +201,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-7-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
@@ -227,7 +215,7 @@
     width: 200px;
     background-image: url("../../img/products/perfume-8-front.png");
     background-size: cover;
-    border-radius: 6px;
+    border-radius: var(--standard-border-radius);
     transition: background-image .2s ease-in-out; 
 }
 
