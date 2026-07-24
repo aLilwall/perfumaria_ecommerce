@@ -1,7 +1,7 @@
 :root {
     /* COLOR VARIABLES */
-    --primary-color: #fff;
-    --light-color: #eee;
+    --primary-color: #eee;
+    --light-color: #ddd;
     --dark-color: #414141;
     --body-font: "Gantari", sans-serif;
     --logo-font: "Dynalight", cursive;
@@ -29,5 +29,4 @@
     /* WIDTH LIMITS */
     --standard-width: 1144px;
     --standard-border-radius: 8px;
-    --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
 }
